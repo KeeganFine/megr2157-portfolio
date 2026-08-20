@@ -30,6 +30,7 @@ The primary function of the cant hook is to act as a manual lever that multiplie
 
 ![CantHook](<img width="4284" height="5712" alt="IMG_1419" src="https://github.com/user-attachments/assets/f33b775e-d8e8-453f-b320-a551a767182d" />
 )
+
 The Handle: The handle is shaped as an elongated, tapered cylinder made of high-strength combination of steel, wood, and or fiberglass. This shape maximizes the moment arm (distance from the user's hand to the pivot point), which directly increases the input force into higher torque while keeping weight manageable.
 
 
