@@ -49,6 +49,14 @@ On February 26, 1987, Thomas Hopkins created patent US62489A for improved cant h
 
 ## Decide
 
+**Homepage Identity:**
+
+The Portfolio serves as a functional roadmap designed to give visiting engineers, recruiters, and evaluators immediate access to the structure and quality standards of this repository without needing to dig through individual files. the homepage outlines the sequential organization of coursework across eleven dedicated assignment modules (A1 through A11). It defines the rigorous analytical standards applied throughout—specifically demonstrating physical tool decompositions, governing physics principles (such as static friction and torque balance equations), and systematic decision-defense methodologies. By organizing these deliverables behind a clear table-of-contents sidebar and standardizing project sections around structured Objectives, Analysis, Decision, and Communication frameworks, the homepage guarantees that a technical reader can efficiently evaluate the content displayed and replicate or make decisions based off of the information given. 
+
+
+**Intentional Customization:**
+
+
 
 ## Communicate
 
