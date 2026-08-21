@@ -56,6 +56,12 @@ The Portfolio serves as a functional roadmap designed to give visiting engineers
 
 **Intentional Customization:**
 
+The site's visual theme was updated from green to a neutral grey palette to better align with the technical expectations of a professional engineering portfolio. While vibrant colors can draw initial visual interest, a grey-toned interface provides a cleaner backdrop that minimizes distraction and establishes an industrial aesthetic. Given that the projects will heavily emphasizes physical manufacturing, material science, and metalworking; the metallic tone directly reflects the core mechanical subject matter while ensuring readability and maintaining professional appearance for the reader.
+
+
+**Documentation Standard:**
+
+The quality of the projects going into this portfolio will be built with precision and the analysis that goes into these entries will hold that same standard of quality precision. 
 
 
 ## Communicate
