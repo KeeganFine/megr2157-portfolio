@@ -67,4 +67,9 @@ A few major lessons learned in this project include time management, truss desig
 
 ## CAD Links
 
-[Truss Assembly file](./)
+[Truss Assembly file](./Truss_Asembly.f3d)
+[.6m Beam file](Beam_600mm.f3d)
+[.5m Beam file](Beam_500mm.f3d)
+[.4m Beam file](Beam_400mm.f3d)
+[.36m Beam file](Beam_360mm.f3d)
+[Pin file](Pin.f3d)
