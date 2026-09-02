@@ -13,7 +13,8 @@
 
 
 - Design Constraints
-  ![Design Constraints](./)
+
+  ![Design Constraints](./truss constraints.png)
 
 
 ## Analyze
