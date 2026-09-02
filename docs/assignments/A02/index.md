@@ -15,7 +15,7 @@
 
 - Design Constraints
 
-  ![Design Constraints](./trusscontraints.jpg)
+  ![Design Constraints](./trussconstraints.jpg)
 
 
 ## Design Process
@@ -61,3 +61,7 @@ The geometry selected for this design is a symmetrical, 5-panel planar truss fea
 
 ## lessons Learned 
 A few major lessons learned in this project include time management, truss design, cross sectional calculations, and new CAD software. Overall, this project took me about 4 days to complete with each day consisting of about two hours of work time. I believe that if I had started earlier and allowed for better time slots during my day to complete this project, I would have developed a better product. In terms of design, I did know coming in to this what the best design should look like but during the CAD design process I did learn how to make the original truss design more stable with less material. Calculating cross sectional area is new to me, so this took a little while to figure out especially the pin cross sectional areas, but I learned how to use these calculations to find the weight of the truss. prior to this project i have used Creo and SolidWorks, however the reason I chose to use Fusion is simply because I wanted to try something different. Doing this allowed me to learn how to use this software and maximize its design tools to create a more refined truss. 
+
+## CAD Links
+
+
