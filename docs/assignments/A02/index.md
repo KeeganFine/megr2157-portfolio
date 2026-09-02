@@ -14,7 +14,7 @@
 
 - Design Constraints
 
-  ![Design Constraints](./trusscontraints.jpeg)
+  ![Design Constraints](./truss contraints.jpeg)
 
 
 ## Analyze
