@@ -1,4 +1,6 @@
 # A2 – Design with Basic Stress
+
+
 ## Objective
 - Design a lightweight planar truss using A500 steel or an alternative material.
 - Create free body diagrams (FBDs) for joints and critical pins.
@@ -13,15 +15,15 @@
 
 - Design Constraints
 
-  ![Design Constraints](./trusscontraints.jpg)
+  ![Design Constraints](./trusscontraints.jpeg)
 
 
 ## Design Process
 
 
 # Truss Geometry 
-I chose a half hexagonal shape because it creates an efficient and symmetrical load path that minimizes unnecessary material while maintaining structural stability. To do this I added Joint E halfway between AB. By doing this it created space for two more beams CE and DE, these two inner members act as zero-force members under pure static loading; while they do not carry primary stress, their presence is crucial because they shorten the unbraced length of the top chord, preventing local buckling and maintaining symmetry across the entire frame. Throughout the design process and calculations, I stuck with SI units to keep things as simple as possible. 
-![Truss Geometry](./trussgeomtry.jpg)
+I chose a symmetrical 5-panel planar truss because it creates an efficient and symmetrical load path that minimizes unnecessary material while maintaining structural stability. To do this I added Joint E halfway between AB. By doing this it created space for two more beams CE and DE, these two inner members act as zero-force members under pure static loading; while they do not carry primary stress, their presence is crucial because they shorten the unbraced length of the top chord, preventing local buckling and maintaining symmetry across the entire frame. Throughout the design process and calculations, I stuck with SI units to keep things as simple as possible. 
+![Truss Geometry](./trussgeomtry.jpeg)
 
 
  # Internal Forces 
@@ -39,6 +41,7 @@ To determine the cross-sectional area for the pins I needed to first determine t
 ![Pin Cross Sectional Area](./pincrosssectionalarea.jpeg)
 ![Pin Weight](./pinweight.jpeg)
 
+
 # Cad Design 
 ![CAD Truss](./CADTRUSS.jpeg)
 Before Implementing my designs into CAD software, I organized all my dimensions into a list, this allowed for an efficient and organized design process. For this design Autodesk Fusion was used because I had not used it prior and it great reviews and a lot of design tools implemented into the software to expediate and maximize the efficiency of the design process. Using A500 steel I designed all my beams first and then using tool steel I designed the pins. for the assembly I opted for a different approach instead of manually assembling the entire truss. I used the Autodesk Fusion assistant to help place the pins correctly, as well as analyzing the truss to find ways to improve the structure and stability. This analysis determined that the AE and BE beams could be merged into one AB beam with 2 pins at each end and 1 pin in the middle of the beam. 
@@ -48,11 +51,13 @@ Before Implementing my designs into CAD software, I organized all my dimensions 
 ![CAD beam4](./beam4.jpg)
 ![CAD Beam5](./beam5.jpg)
 ![CAD beam6](./Beam6.jpeg)
+![CAD pin](./trusspin.jpeg)
 
 
 
 ## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
+The geometry selected for this design is a symmetrical, 5-panel planar truss featuring diagonal tension ties and vertical stabilizing beams. I chose this design because it creates a direct and efficient load path that minimizes overall mass while maintaining structural stability. Additionally the two inner beam members act as zero-force members under pure static point loads. they shorten the unbraced length of the top chord to prevent buckling and ensure structural symmetry across the entire frame.
+
 
 ## lessons Learned 
-
+A few major lessons learned in this project include time management, truss design, cross sectional calculations, and new CAD software. Overall, this project took me about 4 days to complete with each day consisting of about two hours of work time. I believe that if I had started earlier and allowed for better time slots during my day to complete this project, I would have developed a better product. In terms of design, I did know coming in to this what the best design should look like but during the CAD design process I did learn how to make the original truss design more stable with less material. Calculating cross sectional area is new to me, so this took a little while to figure out especially the pin cross sectional areas, but I learned how to use these calculations to find the weight of the truss. prior to this project i have used Creo and SolidWorks, however the reason I chose to use Fusion is simply because I wanted to try something different. Doing this allowed me to learn how to use this software and maximize its design tools to create a more refined truss. 
