@@ -12,7 +12,9 @@
 - Document key engineering lessons learned from the process.
 
 
-- Design Constraints 
+- Design Constraints
+  ![Design Constraints](./)
+
 
 ## Analyze
 
