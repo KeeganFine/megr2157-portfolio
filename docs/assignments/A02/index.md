@@ -68,8 +68,13 @@ A few major lessons learned in this project include time management, truss desig
 ## CAD Links
 
 [Download Truss Assembly File (.f3d)](./Truss_Assembly.f3d)
-[.6m Beam file](./Beam_600mm.f3d)
-[.5m Beam file](./Beam_500mm.f3d)
-[.4m Beam file](./Beam_400mm.f3d)
-[.36m Beam file](./Beam_360mm.f3d)
-[Pin file](./Pin.f3d)
+
+[Download .6m Beam file (.f3d)](./Beam_600mm.f3d)
+
+[Download .5m Beam file (.f3d)](./Beam_500mm.f3d)
+
+[Download.4m Beam file (f3d)](./Beam_400mm.f3d)
+
+[Download .36m Beam file (f3d)](./Beam_360mm.f3d)
+
+[Download Pin file (f3d)](./Pin.f3d)
