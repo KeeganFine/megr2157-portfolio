@@ -52,7 +52,7 @@ Before Implementing my designs into CAD software, I organized all my dimensions 
 ![CAD beam36](./beam36.jpg)
 ![CAD beam4](./beam4.jpg)
 ![CAD Beam5](./beam5.jpg)
-![CAD beam6](./Beam6.jpg)
+![CAD beam6](./beam6.jpg)
 ![CAD pin](./trusspin.jpg)
 
 
@@ -67,4 +67,4 @@ A few major lessons learned in this project include time management, truss desig
 
 ## CAD Links
 
-
+[Truss Assembly file](./)
