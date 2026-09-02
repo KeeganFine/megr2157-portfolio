@@ -14,7 +14,7 @@
 
 - Design Constraints
 
-  ![Design Constraints](./https://github.com/KeeganFine/megr2157-portfolio/blob/main/docs/assignments/A02/truss%20constraints.png)
+  ![Design Constraints](./trusscontraints.jpeg)
 
 
 ## Analyze
