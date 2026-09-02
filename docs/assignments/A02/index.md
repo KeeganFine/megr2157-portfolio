@@ -15,7 +15,7 @@
 
 - Design Constraints
 
-  ![Design Constraints](./trusscontraints.jpeg)
+  ![Design Constraints](./trusscontraints.jpg)
 
 
 ## Design Process
@@ -43,15 +43,15 @@ To determine the cross-sectional area for the pins I needed to first determine t
 
 
 # Cad Design 
-![CAD Truss](./CADTRUSS.jpeg)
+![CAD Truss](./CADTRUSS.jpg)
 Before Implementing my designs into CAD software, I organized all my dimensions into a list, this allowed for an efficient and organized design process. For this design Autodesk Fusion was used because I had not used it prior and it great reviews and a lot of design tools implemented into the software to expediate and maximize the efficiency of the design process. Using A500 steel I designed all my beams first and then using tool steel I designed the pins. for the assembly I opted for a different approach instead of manually assembling the entire truss. I used the Autodesk Fusion assistant to help place the pins correctly, as well as analyzing the truss to find ways to improve the structure and stability. This analysis determined that the AE and BE beams could be merged into one AB beam with 2 pins at each end and 1 pin in the middle of the beam. 
 ![CAD Dimensions](./caddimensions.jpeg)
-![CAD Truss](./CAD.jpeg)
+![CAD Truss](./CAD.jpg)
 ![CAD beam36](./beam36.jpg)
 ![CAD beam4](./beam4.jpg)
 ![CAD Beam5](./beam5.jpg)
-![CAD beam6](./Beam6.jpeg)
-![CAD pin](./trusspin.jpeg)
+![CAD beam6](./Beam6.jpg)
+![CAD pin](./trusspin.jpg)
 
 
 
