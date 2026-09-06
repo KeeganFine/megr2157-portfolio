@@ -17,6 +17,7 @@ Given the beam description and the provided values, I was tasked to construct a 
 
 ### CAD Design 
 ![CAD Beam](./bar-overall-structure.jpg)
+
 To design a beam with specific parameters and an Aluminum material I used Creo because it had more freedom in terms of what parameters could be set and how they were utilized. 
 - Step 1: 
 
