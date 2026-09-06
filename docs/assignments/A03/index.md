@@ -13,19 +13,19 @@
 
 ### Design Drawing / Calculations
 ![Design](./design-drawing.jpeg)
-Given the beam description and the provided values, I was tasked to construct a beam with a circular cross section and find the optimal length that could satisfy a max axial deflection of .009in and withstand a tensile load of 400lb. to do this I chose a diameter of .5in and solved for the cross-sectional area. After finding the cross-sectional area, I was able to derive the beam length from the direct tension elongation equation. 
+Given the beam description and the provided values, I was tasked to construct an aluminium beam with a circular cross section and find the optimal length that could satisfy a max axial deflection of .009in and withstand a tensile load of 400lb. to do this I chose a diameter of .5in and solved for the cross-sectional area. After finding the cross-sectional area, I was able to derive the beam length from the direct tension elongation equation. 
 
 ### CAD Design 
 ![CAD Beam](./bar-overall-structure.jpg)
 
 To design a beam with specific parameters and an Aluminum material I used Creo because it had more freedom in terms of what parameters could be set and how they were utilized. 
-- Step 1 (Parameters): Before creating a sketch, I opened the parameters settings underneath the modify bar in Creo and entered in the given values for force, axial deflection, elasticity for aluminum, and the diameter for the bar. In order to check my hand calculations, the cross-sectional Area equation and Length equation was plugged into the relations box. this worked similar to an excel sheet by allowing the user parameters to work directly with these equations.
+**- Step 1 (Parameters):** Before creating a sketch, I opened the parameters settings underneath the modify bar in Creo and entered in the given values for force, axial deflection, elasticity for aluminum, and the diameter for the bar. In order to check my hand calculations, the cross-sectional Area equation and Length equation was plugged into the relations box. this worked similar to an excel sheet by allowing the user parameters to work directly with these equations.
 
 ![Parameters](./parameter-table-CAD.jpg)
 
 ![Parameters](./parameter-equations-CAD.jpg)
 
-- Step 2 (Sketch & Extrude): Now that the parameters were set, I drew a simple circular sketch and directly applied the user parameters by labeling my dimension as d0. From here the circle was extruded into a cylindrical beam and given a length of d1 which equaled the length equation that was previously put into the relations box. In Creo for a design to contain a material it must first be a 3D model, so now I was able to go into the modify materials settings under file>prepare and change it to Aluminum.
+**- Step 2 (Sketch & Extrude):** Now that the parameters were set, I drew a simple circular sketch and directly applied the user parameters by labeling my dimension as d0. From here the circle was extruded into a cylindrical beam and given a length of d1 which equaled the length equation that was previously put into the relations box. In Creo for a design to contain a material it must first be a 3D model, so now I was able to go into the modify materials settings under file>prepare and change it to Aluminum.
 
 ![Sketch](./DIameter-Sketch.jpg)
 
@@ -33,7 +33,14 @@ To design a beam with specific parameters and an Aluminum material I used Creo b
 
 ![Material](./Material-CAD.jpg)
 
-- Step 3: 
+**- Step 3 (FEA):** In order to run an FEA on this design I switched Creo into simulate mode and applied a fixed constraint at the left end of the bar and a pulling force at the right end of the bar. the pulling force on the right side of the bar was labeled "F" and directly translated to the force parameter that was had been set. After setting up the bar I ran the analysis and created an axial deflection map and a von Mises Stress Map. Below are the results of both of these Analysis's, The top is the axial deflection map and the bottom is the von Mises Stress Map. 
+
+![FEA 1](./stress-analysis1-CAD.jpg)
+
+![FEA 2](./stress-analysis2-CAD.jpg)
+
+**- Step 4 (Design Reflection):** After running the FEA and calculating the maximum stress, it was concluded that the maximum stress was 2.037ksi which is significantly lower than the 40ksi yield strength of aluminum. the creo calculation for this was 2.295ksi which 
+
  
 ## Design Reflection 
 ![Design Reflection](./design-reflection.jpeg)
