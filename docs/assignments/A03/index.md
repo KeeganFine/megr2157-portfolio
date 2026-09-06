@@ -27,7 +27,7 @@ To design a beam with specific parameters and an Aluminum material I used Creo b
 
 - Step 2: Now that the parameters were set, I drew a simple circular sketch and directly applied the user parameters by labeling my dimension as d0. From here the circle was extruded into a cylindrical beam and given a length of d1 which equaled the length equation that was previously put into the relations box. In Creo for a design to contain a material it must first be a 3D model, so now I was able to go into the modify materials settings under file>prepare and change it to Aluminum.
 
-![Sketch](./DIameter-sketch.jpg)
+![Sketch](./DIameter-Sketch.jpg)
 ![Extrude](./bar-length.jpg)
 ![Material](./Material-CAD.jpg)
 
