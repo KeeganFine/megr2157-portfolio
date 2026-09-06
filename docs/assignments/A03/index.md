@@ -19,7 +19,9 @@ Given the beam description and the provided values, I was tasked to construct a 
 ![CAD Beam](./bar-overall-structure.jpg)
 
 To design a beam with specific parameters and an Aluminum material I used Creo because it had more freedom in terms of what parameters could be set and how they were utilized. 
-- Step 1: 
+- Step 1: Before creating a sketch, I opened the parameters settings underneath the modify bar in Creo and entered in the given values for force, axial deflection, elasticity for aluminum, and the diameter for the bar. In order to check my hand calculations, the cross-sectional Area equation and Length equation was plugged into the relations box. this worked similar to an excel sheet by allowing the user parameters to work directly with these equations.
+![Parameters](./parameter-table-CAD.jpeg)
+
 
 ## Design Reflection 
 ![Design Reflection](./design-reflection.jpeg)
