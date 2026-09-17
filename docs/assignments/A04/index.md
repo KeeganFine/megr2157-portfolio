@@ -14,6 +14,11 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 ### Hand Drawn Design / Calculations
 In order to design a motor mount for the Brushed 24V DC Gear Motor the first step was to research some different types of motor mounts. Since this motor is relatively small and simple I decided to go with a basic design similar to the one in Appendix B. This allowed me to use an additive manufactured material called PETG. The reason I chose this over ABS or PLA was because it met all the necessary requirements without sacrificing any. PETG was the strongest out of the three and although it did not have the highest tolerance to temperature as ABS, it is not going to be used for a high heat application. The next step in the process was to create FBD's for section 1 and section 2 of the mount. After drawing the FBD's and solving equilibrium moment and force equations I began to solve symbolically and numerically for the appropriate thickness that could withstand an elongation of .3mm without failing. Once these values were determined I draw the Isometric views for each section with their respective dimensions. 
 
+![Description](,/Motor.jpeg)
+
+![Description](./feature1.jpeg)
+
+![Description](./feature2.jpeg)
 
 ### CAD Design 
 ![Description](./Orthoviewcreo.jpg)
