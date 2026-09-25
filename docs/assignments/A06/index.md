@@ -46,6 +46,6 @@ I spent a total of 4 hours on this assignment. A lesson I learned was going back
 
 
 ## CAD Files 
-[Download Bar(.prt)](./a6.prt.zip)
-[Download Bar(.drw)](.drwa6.drw.zip)
+[Download Bar(.prt)](./a6.prt.prt)
+[Download Bar(.drw)](.drwa6.drw.drw)
 
