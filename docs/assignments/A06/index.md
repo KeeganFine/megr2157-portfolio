@@ -31,7 +31,7 @@ Using Creo I created one solid part by creating continuous sketches starting fro
 
 ![Description](./parameters.jpg)
 
-![Description](./Relations(2).jpg)
+![Description](./Relations2.jpg)
 
 ### Step 3: Tolerances and Drawing
 
@@ -46,6 +46,5 @@ I spent a total of 4 hours on this assignment. A lesson I learned was going back
 
 
 ## CAD Files 
-[Download Bar(.prt)](./a6.prt.prt)
-[Download Bar(.drw)](.drwa6.drw.drw)
+[Download CAD Files (.zip)](./a6.prt.zip)
 
