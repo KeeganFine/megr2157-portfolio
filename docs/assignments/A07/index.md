@@ -23,7 +23,7 @@ In order to achieve a convergence of 7% or less for stress, displacement, and sa
 ![Description](./materialproperties.jpg)
 ![Description](./mass.jpg)
 ![Description](./design1.jpg)
-![Description](./forces.jpg)
+![Description](./designforces.jpg)
 
 
 **- Mesh 1:**
