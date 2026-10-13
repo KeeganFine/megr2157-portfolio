@@ -49,7 +49,7 @@ In order to achieve a convergence of 7% or less for stress, displacement, and sa
 | :--- | :---: |
 | Safety Factor | .180 |
 | Max Stress (ksi)/Location | 221.76/Between A & B  | 
-| Deflection (in) | 0.136/Section B| 
+| Deflection (in)/Loaction | 0.136/Section B| 
 | Mass (lbm) | .268|
 | Element Count| 10021 |
 
@@ -85,7 +85,7 @@ In order to reduce the stress concentrations occurring between the cylindrical s
 | :--- | :---: | ---: |
 | Safety Factor | .180 | .241 |
 | Max Stress (ksi)/Location | 221.76/Between A & B  | 165.74/Between A & B |
-| Deflection (in) | 0.136/Section B| .130/Section B |
+| Deflection (in)/Location | 0.136/Section B| .130/Section B |
 | Mass (lbm) | .268| .268 | 
 | Element Count| 10021 | 27831 |
 
@@ -93,8 +93,11 @@ In order to reduce the stress concentrations occurring between the cylindrical s
 The previous design still had a very high stress concentration between Section A and B even after slight modifications. In my final design I was able to fix that issue by adding a few larger modifications. I widened the backplate/neck (section B), this created a much stiffer and ore rigid design to keep from bending and deforming under load. To assist with this, I also added a front support beam between the shaft (section A) and the bottom of section C, this stopped the large amount stress from being concentrated Between sections A and B and become distributed along the shaft. The support beam allowed for almost no deflection under the 600lb load. After making thee modifications I added chamfers and fillets to needed sections to avoid stress concentrations. I then ran an FEA simulation for course mesh and fine/course mesh. The convergence for Mesh 1 and 2 was well under 7% with a calculated safety factor of 2.83 which meant this bracket would not fail under a load of 600lbf. 
 
  ![Description](./design3.jpg)
+ 
  ![Description](./design3neck.jpg)
+ 
  ![Description](./design3extrude.jpg)
+ 
  ![Description](./design3fillet.jpg)
 
 
@@ -116,11 +119,17 @@ The previous design still had a very high stress concentration between Section A
 |      | Design I |  Design II | Design III |
 | :--- | :---: | :---: |---: |
 | Safety Factor | .180 | .241 | 2.83 |
-| Max Stress (ksi)/Location | 221.76/Between A & B  | 165.74/Between A & B | 14.11/ distributed across support beam, C, A, & B |
-| Deflection (in) | 0.136/Section B| .130/Section B | .0039/Section B &support beam |
+| Max Stress (ksi)/Location | 221.76/Between A & B  | 165.74/Between A & B | 14.11/distributed across support beam, C, A, & B |
+| Deflection (in)/Location | 0.136/Section B| .130/Section B | .0039/Section B & support beam |
 | Mass (lbm) | .268| .268 | .293 |
 | Element Count| 10021 | 27831 | 61431 |
 
+
+## Lessons Learned
+
+This assignment took about 8 hours total. A majority of that time was spent making sure every file and screenshot was saved as a jpeg and organized in a folder throughout the assignment. Doing so limited any user error or loss of work when it came time to put the information together in GitHub. The important lessons learned were using mesh with FEA simulations, convergence calculations, and element count. It originally took me about an hour to understand how to use mesh properly. I had to do some research on the mesh settings in Creo and was able to successfully use them after a few trial and errors. for my convergence calculations I learned to take the percent difference of the mesh 1 and 2 and mesh 3 and 4. The element count was an obstacle because I was unable to find the exact number on Creo so I learned how to manually calculate it. However, this may result in a slightly incorrect element count due to user error. By the end of this assignment, I felt very confident in my understanding on how FEA analysis works and how to visualize what's happening to a design when a load is implemented and how to better the design myself. 
+
+## CAD Files 
 
 
 
