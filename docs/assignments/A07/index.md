@@ -40,8 +40,8 @@ In order to achieve a convergence of 7% or less for stress, displacement, and sa
 ![Description](./d1mesh3deform.jpg)
 
 #### Design 1 Table (Mesh 3 Values)
-|      | Design I |
-| :--- | :---: | ---: |
+|      | Design I | 
+| :--- | :---: |
 | Safety Factor | .180
 | Max Stress (ksi) | 221.76 |
 | Deflection (in) | 0.136 | 
