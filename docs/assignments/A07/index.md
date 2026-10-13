@@ -13,6 +13,7 @@
 ## Description
 The task is simply to create a high stiff, high strength, and lightweight component. Use Finite Element analysis to drive your decision making process throughout your design. Each step of the analysis and before you make geometric changes make sure the component’s results (stress/displacement/Safety Factor) converge on a 7% difference. Achieve this by modifying the number of elements. If after three attempts to converge use the stiffness and stress from the finer mesh size use the finest mesh size and proceed through the process.
 ![Description](./description.jpeg)
+![Description](./appendix.jpeg)
 
 ## Designs
 
@@ -130,6 +131,9 @@ The previous design still had a very high stress concentration between Section A
 This assignment took about 8 hours total. A majority of that time was spent making sure every file and screenshot was saved as a jpeg and organized in a folder throughout the assignment. Doing so limited any user error or loss of work when it came time to put the information together in GitHub. The important lessons learned were using mesh with FEA simulations, convergence calculations, and element count. It originally took me about an hour to understand how to use mesh properly. I had to do some research on the mesh settings in Creo and was able to successfully use them after a few trial and errors. for my convergence calculations I learned to take the percent difference of the mesh 1 and 2 and mesh 3 and 4. The element count was an obstacle because I was unable to find the exact number on Creo so I learned how to manually calculate it. However, this may result in a slightly incorrect element count due to user error. By the end of this assignment, I felt very confident in my understanding on how FEA analysis works and how to visualize what's happening to a design when a load is implemented and how to better the design myself. 
 
 ## CAD Files 
+
+## Convergence Calculation Files
+
 
 
 
