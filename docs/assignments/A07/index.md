@@ -131,8 +131,13 @@ The previous design still had a very high stress concentration between Section A
 This assignment took about 8 hours total. A majority of that time was spent making sure every file and screenshot was saved as a jpeg and organized in a folder throughout the assignment. Doing so limited any user error or loss of work when it came time to put the information together in GitHub. The important lessons learned were using mesh with FEA simulations, convergence calculations, and element count. It originally took me about an hour to understand how to use mesh properly. I had to do some research on the mesh settings in Creo and was able to successfully use them after a few trial and errors. for my convergence calculations I learned to take the percent difference of the mesh 1 and 2 and mesh 3 and 4. The element count was an obstacle because I was unable to find the exact number on Creo so I learned how to manually calculate it. However, this may result in a slightly incorrect element count due to user error. By the end of this assignment, I felt very confident in my understanding on how FEA analysis works and how to visualize what's happening to a design when a load is implemented and how to better the design myself. 
 
 ## CAD Files 
+[Download Design 1 (.zip)](./a7design1.prt.zip)
+[Download Design 2 (.zip)](./a7desgn2.prt.zip)
+[Download Design 3 (.zip)](./a7desgn3.prt.zip)
+
 
 ## Convergence Calculation Files
+[Download Convergence Calculations (.pdf)](./docs/a7convergence.pdf)
 
 
 
