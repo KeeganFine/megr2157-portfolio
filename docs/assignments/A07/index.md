@@ -47,9 +47,9 @@ In order to achieve a convergence of 7% or less for stress, displacement, and sa
 **- Design 1 Table (Mesh 3 Values):**
 |      | Design I | 
 | :--- | :---: |
-| Safety Factor | .180
-| Max Stress (ksi) | 221.76 |
-| Deflection (in) | 0.136 | 
+| Safety Factor | .180 |
+| Max Stress (ksi)/Location | 221.76/Between A & B  | 
+| Deflection (in) | 0.136/Section B| 
 | Mass (lbm) | .268|
 | Element Count| 10021 |
 
@@ -77,18 +77,57 @@ In order to reduce the stress concentrations occurring between the cylindrical s
 
 
 **- Convergence Calculations:**
-![Description](./d12calc.jpeg)
+![Description](./d2calc.jpeg)
 
 
 **- Design 1 & 2 Table (Mesh 3 Values):**
 |      | Design I |  Design II |
 | :--- | :---: | ---: |
 | Safety Factor | .180 | .241 |
-| Max Stress (ksi) | 221.76 | 165.74 |
-| Deflection (in) | 0.136 | .130 |
-| Mass (lbm) | .268| .286 |
+| Max Stress (ksi)/Location | 221.76/Between A & B  | 165.74/Between A & B |
+| Deflection (in) | 0.136/Section B| .130/Section B |
+| Mass (lbm) | .268| .268 | 
 | Element Count| 10021 | 27831 |
 
+### Design 3 
+The previous design still had a very high stress concentration between Section A and B even after slight modifications. In my final design I was able to fix that issue by adding a few larger modifications. I widened the backplate/neck (section B), this created a much stiffer and ore rigid design to keep from bending and deforming under load. To assist with this, I also added a front support beam between the shaft (section A) and the bottom of section C, this stopped the large amount stress from being concentrated Between sections A and B and become distributed along the shaft. The support beam allowed for almost no deflection under the 600lb load. After making thee modifications I added chamfers and fillets to needed sections to avoid stress concentrations. I then ran an FEA simulation for course mesh and fine/course mesh. The convergence for Mesh 1 and 2 was well under 7% with a calculated safety factor of 2.83 which meant this bracket would not fail under a load of 600lbf. 
+
+ ![Description](./design3.jpg)
+ ![Description](./design3neck.jpg)
+ ![Description](./design3extrude.jpg)
+ ![Description](./design3fillet.jpg)
+
+
+ **- Mesh 1:**
+![Description](./d3mesh1stress.jpg)
+![Description](./d3mesh1deform.jpg)
+
+
+**- Mesh 2:**
+![Description](./d3mesh2stress.jpg)
+![Description](./d3mesh2deform.jpg)
+
+
+**- Convergence Calculations:**
+![Description](./d3calc.jpeg)
+
+
+**- Design 1, 2, and 3 Table (Mesh 3 Values):**
+|      | Design I |  Design II | Design III |
+| :--- | :---: | :---: |---: |
+| Safety Factor | .180 | .241 | 2.83 |
+| Max Stress (ksi)/Location | 221.76/Between A & B  | 165.74/Between A & B | 14.11/ distributed across support beam, C, A, & B |
+| Deflection (in) | 0.136/Section B| .130/Section B | .0039/Section B &support beam |
+| Mass (lbm) | .268| .268 | .293 |
+| Element Count| 10021 | 27831 | 61431 |
+
+
+
+
+
+
+
+ 
 
 
 
@@ -101,8 +140,7 @@ In order to reduce the stress concentrations occurring between the cylindrical s
 
 
 
-## Decide
 
 
-## Communicate
+
 
