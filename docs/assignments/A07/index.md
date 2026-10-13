@@ -18,7 +18,7 @@ The task is simply to create a high stiff, high strength, and lightweight compon
 ## Designs
 
 ### Design 1
-In order to achieve a convergence of 7% or less for stress, displacement, and safety factor, I started with my original design from assignments 5 and 6. Once I had this part pulled up on Creo I went back to edit the material and make sure everything was up to date and to the correct specs, throughout each design I also kept track of the mass. Afterwards I went ahead and started my simulation process by adding a downward force of 600lb to the cylindrical shaft (section A) and a fixed force on the bottom face of Section E of my bracket; these forces created a virtual simulation of a fixed bracket being pulled by a tensile force of 600lbf. With these forces installed I ran 3 FEA simulations for course mesh, fine/course mesh, and fine mesh, out of the three I was able to achieve less than 7% convergence on mesh 2 and 3. However my safety factor was still far below the threshold of 1, which meant I still needed to make some design adjustments in order for my bracket not to fail under load. 
+In order to achieve a convergence of 7% or less for stress, displacement, and safety factor, I started with my original design from assignments 5 and 6. Once I had this part pulled up on Creo I went back to edit the material and make sure everything was up to date and to the correct specs, throughout each design I also kept track of the mass. From here I went ahead and started my simulation process by adding a downward force of 600lb to the cylindrical shaft (section A) and a fixed force on the bottom face of Section E of my bracket; these forces created a virtual simulation of a fixed bracket being pulled by a tensile force of 600lbf. With these forces installed I ran 3 FEA simulations for course mesh, fine/course mesh, and fine mesh, out of the three I was able to achieve less than 7% convergence on mesh 2 and 3. However my safety factor was still far below the threshold of 1, which meant I still needed to make some design adjustments in order for my bracket not to fail under load. 
 
 ![Description](./materialproperties.jpg)
 ![Description](./mass.jpg)
@@ -91,7 +91,7 @@ In order to reduce the stress concentrations occurring between the cylindrical s
 | Element Count| 10021 | 27831 |
 
 ### Design 3 
-The previous design still had a very high stress concentration between Section A and B even after slight modifications. In my final design I was able to fix that issue by adding a few larger modifications. I widened the backplate/neck (section B), this created a much stiffer and ore rigid design to keep from bending and deforming under load. To assist with this, I also added a front support beam between the shaft (section A) and the bottom of section C, this stopped the large amount stress from being concentrated Between sections A and B and become distributed along the shaft. The support beam allowed for almost no deflection under the 600lb load. After making thee modifications I added chamfers and fillets to needed sections to avoid stress concentrations. I then ran an FEA simulation for course mesh and fine/course mesh. The convergence for Mesh 1 and 2 was well under 7% with a calculated safety factor of 2.83 which meant this bracket would not fail under a load of 600lbf. 
+The previous design still had a very high stress concentration between Section A and B even after slight modifications. In my final design I was able to fix that issue by adding a few larger modifications. I widened the backplate/neck (section B), this created a much stiffer and ore rigid design to keep from bending and deforming under load. To assist with this, I also added a front support beam between the shaft (section A) and the bottom of section C, this stopped the large amount stress from being concentrated Between sections A and B and become distributed along the shaft. The support beam allowed for almost no deflection under the 600lb load. After making these modifications I added chamfers and fillets to needed sections to avoid stress concentrations. I then ran an FEA simulation for course mesh and fine/course mesh. The convergence for Mesh 1 and 2 was well under 7% with a calculated safety factor of 2.83 which meant this bracket would not fail under a load of 600lbf. 
 
  ![Description](./design3.jpg)
  
@@ -128,7 +128,7 @@ The previous design still had a very high stress concentration between Section A
 
 ## Lessons Learned
 
-This assignment took about 8 hours total. A majority of that time was spent making sure every file and screenshot was saved as a jpeg and organized in a folder throughout the assignment. Doing so limited any user error or loss of work when it came time to put the information together in GitHub. The important lessons learned were using mesh with FEA simulations, convergence calculations, and element count. It originally took me about an hour to understand how to use mesh properly. I had to do some research on the mesh settings in Creo and was able to successfully use them after a few trial and errors. for my convergence calculations I learned to take the percent difference of the mesh 1 and 2 and mesh 3 and 4. The element count was an obstacle because I was unable to find the exact number on Creo so I learned how to manually calculate it. However, this may result in a slightly incorrect element count due to user error. By the end of this assignment, I felt very confident in my understanding on how FEA analysis works and how to visualize what's happening to a design when a load is implemented and how to better the design myself. 
+This assignment took about 8 hours total. A majority of that time was spent making sure every file and screenshot was saved as a jpeg and organized in a folder throughout the assignment. Doing so limited any user error or loss of work when it came time to put the information together in GitHub. The important lessons learned were using mesh with FEA simulations, convergence calculations, and element count. It originally took me about an hour to understand how to use mesh properly. I had to do some research on the mesh settings in Creo and was able to successfully use them after a few trial and errors. for my convergence calculations I learned to take the percent difference of mesh 1 and 2 and mesh 3 and 4. The element count was an obstacle because I was unable to find the exact number on Creo so I learned how to manually calculate it. However, this may result in a slightly incorrect element count due to user error. By the end of this assignment, I felt very confident in my understanding on how FEA analysis works and how to visualize what's happening to a design when a load is implemented and how to better the design myself. 
 
 ## CAD Files 
 [Download Design 1 (.zip)](./a7design1.prt.zip)
@@ -137,7 +137,7 @@ This assignment took about 8 hours total. A majority of that time was spent maki
 
 
 ## Convergence Calculation Files
-[Download Convergence Calculations (.pdf)](./docs/a7convergence.pdf)
+[Download Convergence Calculations (.pdf)](./a7convergence.pdf)
 
 
 
