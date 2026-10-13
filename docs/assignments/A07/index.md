@@ -17,7 +17,7 @@ The task is simply to create a high stiff, high strength, and lightweight compon
 ## Designs
 
 ### Design 1
-In order to achieve a convergence of 7% or less for stress, displacement, and safety factor, I started with my original design from assignments 5 and 6. Once I had this part pulled up on Creo I went back to edit the material and make sure everything was up to date and to the correct specs, throughout each design I also kept track of the mass. Afterwards I went ahead and started my simulation process by adding a downward force of 600lb to the circular shaft and a fixed force on the bottom face of the E section of my bracket. With these forces I ran 3 simulations for course mesh, fine/course mesh, and fine mesh, out of the three I was able to achieve less than 7% convergence on mesh 2 and 3. However my safety factor was still far below the threshold of 1, which meant I still needed to make some design adjustments in order for my bracket not to fail under load. 
+In order to achieve a convergence of 7% or less for stress, displacement, and safety factor, I started with my original design from assignments 5 and 6. Once I had this part pulled up on Creo I went back to edit the material and make sure everything was up to date and to the correct specs, throughout each design I also kept track of the mass. Afterwards I went ahead and started my simulation process by adding a downward force of 600lb to the cylindrical shaft (section A) and a fixed force on the bottom face of Section E of my bracket; these forces created a virtual simulation of a fixed bracket being pulled by a tensile force of 600lbf. With these forces installed I ran 3 FEA simulations for course mesh, fine/course mesh, and fine mesh, out of the three I was able to achieve less than 7% convergence on mesh 2 and 3. However my safety factor was still far below the threshold of 1, which meant I still needed to make some design adjustments in order for my bracket not to fail under load. 
 
 ![Description](./materialproperties.jpg)
 ![Description](./mass.jpg)
@@ -39,6 +39,11 @@ In order to achieve a convergence of 7% or less for stress, displacement, and sa
 ![Description](./d1mesh3stress.jpg)
 ![Description](./d1mesh3deform.jpg)
 
+
+**- Convergence Calculations:**
+![Description](./d1calc.jpeg)
+
+
 **- Design 1 Table (Mesh 3 Values):**
 |      | Design I | 
 | :--- | :---: |
@@ -46,6 +51,45 @@ In order to achieve a convergence of 7% or less for stress, displacement, and sa
 | Max Stress (ksi) | 221.76 |
 | Deflection (in) | 0.136 | 
 | Mass (lbm) | .268|
+| Element Count| 10021 |
+
+
+### Design 2
+In order to reduce the stress concentrations occurring between the cylindrical shaft (section A) and the neck/backplate (section B), I added a fillet of .10 in between the two sections. This modification slightly lowered the stress and deflection of the bracket. However after calculating for a safety factor of around .2 overall, I was still well below the threshold. For this design I ran an FEA simulation for course mesh, fine/course mesh, and fine mesh. The convergence for Mesh 1 and 2 was slightly over 7%, however the convergence for mesh 2 and 3 was able to yield a convergence of under 7%. 
+
+![Description](./design2.jpg)
+![Description](./design2fillet.jpg)
+
+
+**- Mesh 1:**
+![Description](./d2mesh1stress.jpg)
+![Description](./d2mesh1deform.jpg)
+
+
+**- Mesh 2:**
+![Description](./d2mesh2stress.jpg)
+![Description](./d2mesh2deform.jpg)
+
+
+**- Mesh 3:**
+![Description](./d2mesh3stress.jpg)
+![Description](./d2mesh3deform.jpg)
+
+
+**- Convergence Calculations:**
+![Description](./d12calc.jpeg)
+
+
+**- Design 1 & 2 Table (Mesh 3 Values):**
+|      | Design I |  Design II |
+| :--- | :---: | ---: |
+| Safety Factor | .180 | .241 |
+| Max Stress (ksi) | 221.76 | 165.74 |
+| Deflection (in) | 0.136 | .130 |
+| Mass (lbm) | .268| .286 |
+| Element Count| 10021 | 27831 |
+
+
 
 
 
