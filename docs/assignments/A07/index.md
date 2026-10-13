@@ -30,16 +30,16 @@ In order to achieve a convergence of 7% or less for stress, displacement, and sa
 ![Description](./d1mesh1deform.jpg)
 
 
-#### Mesh 2
+**- Mesh 2:**
 ![Description](./d1mesh2stress.jpg)
 ![Description](./d1mesh2deform.jpg)
 
 
-#### Mesh 3
+**- Mesh 3:**
 ![Description](./d1mesh3stress.jpg)
 ![Description](./d1mesh3deform.jpg)
 
-#### Design 1 Table (Mesh 3 Values)
+**- Design 1 Table (Mesh 3 Values):**
 |      | Design I | 
 | :--- | :---: |
 | Safety Factor | .180
