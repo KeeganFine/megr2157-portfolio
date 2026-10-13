@@ -132,7 +132,9 @@ This assignment took about 8 hours total. A majority of that time was spent maki
 
 ## CAD Files 
 [Download Design 1 (.zip)](./a7design1.prt.zip)
+
 [Download Design 2 (.zip)](./a7desgn2.prt.zip)
+
 [Download Design 3 (.zip)](./a7desgn3.prt.zip)
 
 
