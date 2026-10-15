@@ -34,9 +34,11 @@ For the Journal Bearings we were provided with many options from the McMaster-Ca
 ### Bearing Material 
 
 **- Input Bearing** 
+
 ![Description](./inputbearing.jpeg)
 
 **- Output Bearing**
+
 ![Description](./outputbearing.jpeg)
 
 ### Bearing Thickness
@@ -52,28 +54,32 @@ Since McMaster-Carr provided downloadable versions of the gear, pinion, and jour
 ### Shafts
 
 **- Input Shaft**
+
 ![Description](./inputshaftCAD.jpg)
 
 **-Output Shaft**
+
 ![Description](./outputshaftCAD.jpg)
 
 ### Gearbox 
 
 **- Handrawn Design**
+
 ![Description](./gearbox.jpeg)
 
 **- CAD Design**
+
 ![Description](./gearbox1.jpg)
 
 ### Assembly
 
 ![Description](./gearassembly.jpg)
 
-![Description](./aseemblyexplode1.jpg)
+![Description](./assemblyexplode1.jpg)
 
-![Description](./aseemblyexplode2.jpg)
+![Description](./assemblyexplode2.jpg)
 
-![Description](./aseemblyexplode3.jpg)
+![Description](./assemblyexplode3.jpg)
 
 
 ## Lessons Learned 
