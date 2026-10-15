@@ -90,8 +90,3 @@ In total this took me about 9 hours to complete, most of that time was spent in 
 
 
 
-## Decide
-
-
-## Communicate
-
