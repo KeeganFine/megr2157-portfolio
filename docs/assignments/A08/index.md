@@ -44,6 +44,45 @@ For the Journal Bearings we were provided with many options from the McMaster-Ca
 ![Description](./thickness1.jpeg)
 ![Description](./thickness2.jpeg)
 
+
+## CAD Design/Assembly
+Since McMaster-Carr provided downloadable versions of the gear, pinion, and journal bearings; I was only tasked with designing the shafts and housing. Designing the shafts and assembly were pretty simple, I used the given diameters and lengths for the shafts and added chamfers since they would be a press fit. For the housing I used the gear, pinion, and bearing dimensions to design a housing that would comfortably fit all the necessary parts without coming undone. The housing fitment required either a bolt and hold fit or a snap fit, I chose to use a snap fit because the gear and pinion we were using were so small that bolting the housing together would have just been overkill. this would also save more material on the manufacturers end. Once all parts were designed, I used SolidWorks assembly to assemble them together, in order to mate the gears together I had to use a mechanical mate option with a 24:9 ratio. Keep in mind they all dimensions in solid works are in Imperial units, specifically inches. 
+
+
+### Shafts
+
+**- Input Shaft**
+![Description](./inputshaftCAD.jpg)
+
+**-Output Shaft**
+![Description](./outputshaftCAD.jpg)
+
+### Gearbox 
+
+**- Handrawn Design**
+![Description](./gearbox.jpeg)
+
+**- CAD Design**
+![Description](./gearbox1.jpg)
+
+### Assembly
+
+![Description](./gearassembly.jpg)
+
+![Description](./aseemblyexplode1.jpg)
+
+![Description](./aseemblyexplode2.jpg)
+
+![Description](./aseemblyexplode3.jpg)
+
+
+## Lessons Learned 
+In total this took me about 9 hours to complete, most of that time was spent in SolidWorks. The biggest lesson I learned was using SolidWorks, McMaster-Carr did not offer downloadable versions of the gear, pinion, and bearings that worked with Creo which led me to use SolidWorks. I haven't used SolidWorks since my sophomore year in high school which is about 7 or 8 years give or take, so I was very unfamiliar with it. This led to some troubles when putting together the assembly and made me realize that I need to be more familiar with this software considering its arguably the most well-known and most used CAD software's. I did learn how to calculate thickness of a bearing when there is no given outer diameter which is very useful. Another thing I'm continuing to learn is just how useful the Machinery's Handbook is, becoming more familiar with this book and how to navigate and read it efficiently will become a very useful tool in my academic career as well as my post grad career. 
+
+## CAD Files/Handwritten work PDF
+
+
+
 ## Decide
 
 
