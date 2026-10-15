@@ -86,6 +86,7 @@ Since McMaster-Carr provided downloadable versions of the gear, pinion, and jour
 In total this took me about 9 hours to complete, most of that time was spent in SolidWorks. The biggest lesson I learned was using SolidWorks, McMaster-Carr did not offer downloadable versions of the gear, pinion, and bearings that worked with Creo which led me to use SolidWorks. I haven't used SolidWorks since my sophomore year in high school which is about 7 or 8 years give or take, so I was very unfamiliar with it. This led to some troubles when putting together the assembly and made me realize that I need to be more familiar with this software considering its arguably the most well-known and most used CAD software's. I did learn how to calculate thickness of a bearing when there is no given outer diameter which is very useful. Another thing I'm continuing to learn is just how useful the Machinery's Handbook is, becoming more familiar with this book and how to navigate and read it efficiently will become a very useful tool in my academic career as well as my post grad career. 
 
 ## CAD Files/Handwritten work PDF
+[Download Assembly (.zip)](./assembly.zip.zip)
 
 
 
