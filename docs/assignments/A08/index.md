@@ -87,6 +87,8 @@ In total this took me about 9 hours to complete, most of that time was spent in 
 
 ## CAD Files/Handwritten work PDF
 [Download Assembly (.zip)](./assembly.zip)
+[Download Handwritten work (.pdf)](./a8Gears.pdf)
+
 
 
 
