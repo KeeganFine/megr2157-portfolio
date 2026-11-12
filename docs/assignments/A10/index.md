@@ -60,7 +60,7 @@ Since Grainger and McMaster-Carr provided downloadable files for SolidWorks, I u
 
 ## Lessons Learned
 
-I started this assignment a couple weeks early and it took me about 15 hours spread over the course of two weeks. A small but important lesson learned was using the right units, if I were to do this over, I think I would have done everything in metric instead of trying to use both simultaneously. This led to some complication when trying to get the spacing between the frame and the crosshead. A conceptual lesson I learned was how to conceptualize forces acting on a screw and using these concepts to find torque. I do also feel more confident in my ability to use SolidWorks especially using parametric equations to drive the dimensions as well as the assembly process. 
+I started this assignment a couple weeks early and it took me about 15 hours spread over the course of two weeks. A small but important lesson learned was using the right units, if I were to do this over, I think I would have done everything in metric instead of trying to use both simultaneously. This led to some complication when trying to get the spacing between the frame and the crosshead. A conceptual lesson I learned was how to conceptualize forces acting on a screw and using these concepts to find torque. I do feel more confident in my ability to use SolidWorks especially using parametric equations to drive the dimensions as well as the assembly process. 
 
 ## CAD Files
 
