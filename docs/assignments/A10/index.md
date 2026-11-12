@@ -29,7 +29,7 @@ The only part that I needed to design from scratch was the cross head. To do so 
 ### Costs 
 
 | Item # | Quantity | Name | Cost/Item | Cost | Purchase Link |
-| :--- | :---: | :---: | :---:  | :---: | :---: | ---: |
+| :--- | :---: | :---: | :---:  | :---: | ---: |
 | 804T48 | 1 | T-Slot Framing System: Rectangle, 40 Series, Smooth, Double, 3 m Nom Lg, 80 mm x 40 mm, 6 Slots, Std | $245.87 | $245.87| https://www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T48 |
 | 95120A119 | 2 | 932 Bearing Bronze Acme Flange Nut | $138.20 | $276.4 | https://www.mcmaster.com/95120A119/ | 
 | 98935A914 | 2 | Carbon Steel Acme Lead Screw | $10.29 | $20.58 | https://www.mcmaster.com/98935A914/ |
