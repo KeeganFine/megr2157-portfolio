@@ -24,6 +24,8 @@ The next step in the process was designing a motor mount/bracket for the stepper
 In order for the lead screws to fit into the bracket I needed to design a coupler. Using shear stress torsion analysis to determine the inner and outer diameter of the coupler, I first came up with some assumptions for the yield strength and shear stress of the coupler based on using steel as the coupler material. Using torque analysis, I landed as 20mm as my thickness, this allows me to buy a coupler rather than design and manufacture one. 
 
 ![Description](./coupler.jpeg)
+![Description](./setscrew.jpg)
+
 
 
 ## Frame Analysis and Design
@@ -67,6 +69,20 @@ To design a bearing mount with an RC3 fit I needed to utilize the machinery's ha
 ## Labor Cost
 | Person | Hours Worked | Cost/Hour | Cost |
 | :--- | :---: | :--- | ---: | 
+| Keegan Fine | 20hrs | $35/hr | $700 | 
+
+## Total Cost of Project
+| Total Cost | $1355.48 | 
+| :--- | :---: | ---: |
+
+## Final Assembly Design 
+After tabulating the costs and running the FEA analysis I designed and assembled the final tensile tester. To offset the excess stress and stability I added the wide brackets and hammer nuts to corners as well as adding legs out of the extra T-slot frame to create stability when under load. 
+
+ ![Description](./assembly.jpg)
+
+
+
+
 
 
 
