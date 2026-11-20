@@ -69,16 +69,24 @@ To design a bearing mount with an RC3 fit I needed to utilize the machinery's ha
 ## Labor Cost
 | Person | Hours Worked | Cost/Hour | Cost |
 | :--- | :---: | :--- | ---: | 
-| Keegan Fine | 20hrs | $35/hr | $700 | 
+| Keegan Fine | 25hrs | $35/hr | $875 | 
 
 ## Total Cost of Project
-| Total Cost | $1355.48 | 
+| Total Cost | $1530.48 | 
 | :--- | ---: |
 
 ## Final Assembly Design 
 After tabulating the costs and running the FEA analysis I designed and assembled the final tensile tester. To offset the excess stress and stability I added the wide brackets and hammer nuts to corners as well as adding legs out of the extra T-slot frame to create stability when under load. 
 
  ![Description](./assembly.jpg)
+
+
+## Lessons Learned 
+
+Part 1 and 2 of this assignment took me a total of around 25 hours to complete. The biggest lesson I learned was using SolidWorks to assemble a motor onto an assembly as well as using FEA in a real-world application. Due to the heavy CAD design and dimension analysis, I learned how to research motors and using the torque curve to pick the correct one as well as being able to know when to buy vs design certain parts such as the coupler. Using the Design calculations sections of the Thesis on Design and Manufacturing from Stella Demmel was very helpful when figuring out how to find the correct dimensions and thickness for the bearing mount design and the coupler design. Overall, this project tested my knowledge, work ethic, and ability to problem solve and research parts and equipment. 
+
+## CAD Files
+[Download Assembly (.zip)](./assemblymotor.zip)
 
 
 
