@@ -73,7 +73,7 @@ To design a bearing mount with an RC3 fit I needed to utilize the machinery's ha
 
 ## Total Cost of Project
 | Total Cost | $1355.48 | 
-| :--- | :---: | ---: |
+| :--- | ---: |
 
 ## Final Assembly Design 
 After tabulating the costs and running the FEA analysis I designed and assembled the final tensile tester. To offset the excess stress and stability I added the wide brackets and hammer nuts to corners as well as adding legs out of the extra T-slot frame to create stability when under load. 
