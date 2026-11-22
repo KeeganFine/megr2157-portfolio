@@ -19,6 +19,13 @@ The next step in the process was designing a motor mount/bracket for the stepper
 ![Description](./motordimensions.jpg)
 ![Description](./motormount.jpeg)
 
+![Description](./motormount.jpg)
+![Description](./motormount1.jpg)
+![Description](./motormount2.jpg)
+![Description](./motormount3.jpg)
+![Description](./motormount4.jpg)
+
+
 
 ## Coupler Design
 In order for the lead screws to fit into the bracket I needed to design a coupler. Using shear stress torsion analysis to determine the inner and outer diameter of the coupler, I first came up with some assumptions for the yield strength and shear stress of the coupler based on using steel as the coupler material. Using torque analysis, I landed as 20mm as my thickness, this allows me to buy a coupler rather than design and manufacture one. 
